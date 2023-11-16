@@ -1,0 +1,22 @@
+.nav-link{
+    text-transform: uppercase;
+    margin: 10px;
+}
+.nav-link:hover{
+color: skyblue;
+transition-duration: 0.5s;
+}
+
+/* home css */
+.image-left{
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+/* contact css */
+.border-contact{
+    border:1px solid black;
+    height: 30%;
+    width: 60%;
+}
