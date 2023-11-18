@@ -14,6 +14,10 @@ export const Data = {
       },
       {
         id: 4,
+        title: "Skill",
+      },
+      {
+        id: 5,
         title: "Contact",
       },
     ],

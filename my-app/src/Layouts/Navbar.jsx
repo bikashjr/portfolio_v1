@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Data } from '../mock/data';
 
 const Navs = () => {
-  const items = Data.navbar; 
+  const items = Data.navbar;
 
   return (
     <Navbar expand="lg" className="bg-light" fixed="top">
