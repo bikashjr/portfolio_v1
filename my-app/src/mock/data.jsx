@@ -1,4 +1,4 @@
-export const Data = {
+export const data = {
     navbar: [
       {
         id: 1,
@@ -14,7 +14,7 @@ export const Data = {
       },
       {
         id: 4,
-        title: "Skill",
+        title: "Skills",
       },
       {
         id: 5,

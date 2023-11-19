@@ -9,9 +9,9 @@ const Footer = () => {
         </div>
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li className="ms-3"><a className="text-body-secondary" href="#"><BsLinkedin size={30} /></a></li>
-          <li className="ms-3"><a className="text-body-secondary" href="#"><BsFacebook size={30} /></a></li>
-          <li className="ms-3"><a className="text-body-secondary" href="#"><BsGithub size={30} /></a></li>
+          <a href='https://www.linkedin.com/in/bikash-ghimire-730b33279/' className="text-body-secondary ms-2"><BsLinkedin size={30} /></a>
+          <a className="text-body-secondary ms-2" href='https://www.facebook.com/bikash.ghimire.566148/'><BsFacebook size={30} /></a>
+          <a className="text-body-secondary ms-2" href='https://github.com/bikashjr'><BsGithub size={30} /></a>
         </ul>
       </footer>
     </div>

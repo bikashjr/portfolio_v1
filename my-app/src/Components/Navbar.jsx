@@ -1,8 +1,10 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Data } from '../mock/data';
+import { Link } from 'react-router-dom';
+
+import { data } from '../mock/data';
 
 const Navs = () => {
-  const items = Data.navbar;
+  const items = data.navbar;
 
   return (
     <Navbar expand="lg" className="bg-light" fixed="top">
@@ -14,9 +16,9 @@ const Navs = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
             {items.map((item) => (
-              <a href="/" className="nav-link fw-bold" key={item.id}>
+              <Link to={`/${item.title.toLowerCase()}`} className="nav-link fw-bold" key={item.id}>
                 {item.title}
-              </a>
+              </Link>
             ))}
           </Nav>
         </Navbar.Collapse>
