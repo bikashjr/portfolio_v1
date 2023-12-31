@@ -1,16 +1,10 @@
 import { Container, Row } from "react-bootstrap";
 import { MainLayout } from "../Components/MainLayout";
 
-const Skill = () => {
-    const Title = (props) => {
-        return (
-            <h1 className='mt-4 pb-3 text-center'>{props.title}</h1>
-        )
-    }
-
+const Skill = () => {    
     return (
         <>
-            <Title title='Skills'></Title>
+        
             <MainLayout>
                 <Container>
                     <Row>
@@ -55,6 +49,5 @@ const Skill = () => {
             </MainLayout>
         </>
     )
-}
-
+    }
 export default Skill;
